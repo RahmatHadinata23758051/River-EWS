@@ -1,3 +1,111 @@
 .venv
 .venv/
 __pycache__/
+=======
+# Large Data Folders - Do NOT commit
+images/
+annotations/
+video/
+binary_masks/
+
+# Model Checkpoints & Weights (Keep best_model.pth reference only)
+checkpoints/*.pth
+checkpoints/*.pkl
+flood_detection_model/model/*.pth
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Generated Files
+test_results*.json
+test_results*.png
+model_evaluation*.json
+model_evaluation*.png
+evaluation*.json
+evaluation*.png
+*_detected.mp4
+*_water.mp4
+*.log
+*.tmp
+
+# Environment variables
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+*.lnk
+
+# Temporary files
+*.bak
+*.swp
+*~
+.~*
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build outputs
+*.o
+*.a
+*.so
+*.dylib
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Secrets/Keys
+credentials.json
+*.pem
+*.key
+*.pub

@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-03-27T19:36:50.015248",
+  "sensor": {
+    "water_level_cm": 160.0,
+    "rainfall_mm": 100.0,
+    "weather": "Hujan Deras",
+    "status": "Bahaya",
+    "confidence": 0.9
+  },
+  "cv": null,
+  "fusion": {
+    "fused_status": "Bahaya",
+    "confidence": 0.9,
+    "decision": "TRIGGER_ALARM",
+    "recommendation": "Sensor indicates Bahaya - Action required!",
+    "mode": "sensor_only",
+    "note": "CV model not available - using sensor data only"
+  }
+}

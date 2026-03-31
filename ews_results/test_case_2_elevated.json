@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-03-27T19:36:50.014876",
+  "sensor": {
+    "water_level_cm": 120.0,
+    "rainfall_mm": 50.0,
+    "weather": "Hujan",
+    "status": "Waspada",
+    "confidence": 0.68
+  },
+  "cv": null,
+  "fusion": {
+    "fused_status": "Waspada",
+    "confidence": 0.68,
+    "decision": "TRIGGER_ALARM",
+    "recommendation": "Sensor indicates Waspada - Action required!",
+    "mode": "sensor_only",
+    "note": "CV model not available - using sensor data only"
+  }
+}

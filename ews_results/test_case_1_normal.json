@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-03-27T19:36:50.014559",
+  "sensor": {
+    "water_level_cm": 30.0,
+    "rainfall_mm": 5.0,
+    "weather": "Cerah",
+    "status": "Aman",
+    "confidence": 0.6792499999999999
+  },
+  "cv": null,
+  "fusion": {
+    "fused_status": "Aman",
+    "confidence": 0.6792499999999999,
+    "decision": "NO_ALARM",
+    "recommendation": "Conditions normal.",
+    "mode": "sensor_only",
+    "note": "CV model not available - using sensor data only"
+  }
+}
