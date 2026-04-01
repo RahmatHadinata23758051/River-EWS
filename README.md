@@ -16,20 +16,20 @@ The model is designed as part of a larger **Early Warning System (EWS)**, where:
 
 ## 🚀 Quick Start
 
-### 1. Run Quick Test (Recommended)
+### 1. Run Quick Test on Video (Recommended)
 
 ```bash
-python quick_test.py
+python prod_01_inference_quick.py video/2022111801.mp4
 ```
 
-Tests model on sample images and displays flood detection results.
+Tests model on video and displays flood detection results with statistics.
 
 ---
 
 ### 2. Run Inference on Image
 
 ```bash
-python inference.py images/2022111801/2022111801_000.jpg
+python 06_model_inference.py images/2022111801/2022111801_000.jpg
 ```
 
 ---
@@ -37,7 +37,7 @@ python inference.py images/2022111801/2022111801_000.jpg
 ### 3. Run Inference on Video
 
 ```bash
-python inference.py videos/2022111801.mp4
+python 06_model_inference.py video/2022111801.mp4
 ```
 
 ---
@@ -105,22 +105,22 @@ Below is the evaluation of the model on 300 test samples:
 
 ```
 flood_dataset/
-├── quick_test.py              ← START HERE (simple test)
-├── inference.py               (image/video inference)
-├── 04_unet_model.py          (model architecture)
-├── 05_train.py               (training script)
-├── README.md                 (this file)
+├── prod_01_inference_quick.py          ← Quick test (simple)
+├── 06_model_inference.py               (image/video inference)
+├── 04_model_unet_architecture.py       (model architecture)
+├── 05_model_train.py                   (training script)
+├── README.md                           (this file)
 │
 ├── checkpoints/
 │   └── best_model.pth
 │
-├── flood_detection_model/     # Production-ready module
+├── flood_detection_model/              # Production-ready module
 │   ├── model/
 │   ├── code/
 │   └── setup.py
 │
 ├── images/
-├── videos/
+├── video/
 ├── annotations/
 └── binary_masks/
 ```
