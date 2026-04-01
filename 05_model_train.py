@@ -18,9 +18,9 @@ import os
 import sys
 sys.path.insert(0, str(Path(__file__).parent))
 
-# Import dari 04_unet_model.py
+# Import dari 04_model_unet_architecture.py
 import importlib.util
-spec = importlib.util.spec_from_file_location("unet_model", Path(__file__).parent / "04_unet_model.py")
+spec = importlib.util.spec_from_file_location("unet_model", Path(__file__).parent / "04_model_unet_architecture.py")
 unet_module = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(unet_module)
 create_model = unet_module.create_model

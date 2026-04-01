@@ -1,7 +1,6 @@
 .venv
 .venv/
 __pycache__/
-=======
 # Large Data Folders - Do NOT commit
 images/
 annotations/

@@ -56,7 +56,7 @@ python inference.py video/2022111801.mp4
 flood_dataset/
 ├── quick_test.py              ← START HERE (simple test)
 ├── inference.py               (image/video inference)
-├── 04_unet_model.py          (model architecture)
+├── 04_model_unet_architecture.py  (model architecture)
 ├── 05_train.py               (training script)
 ├── README.md                 (this file)
 │
