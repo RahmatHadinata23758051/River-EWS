@@ -7,9 +7,9 @@ This project implements an **integrated Early Warning System (EWS)** for flood d
 * 📡 **Sensor Module**: Random Forest model predicting flood status from water level & rainfall data
 * 🎥 **Computer Vision Module**: U-Net semantic segmentation detecting water coverage in video frames
 * 🔀 **Fusion Logic**: AND-based multi-modal validation (both sources must agree on danger to trigger alarm)
+<img width="1193" height="648" alt="image" src="https://github.com/user-attachments/assets/db7cf643-d792-4451-b025-22a245fd19d7" />
 
-> ✅ Current scope: **Fully integrated sensor + CV system (production ready & validated)**
-> 📊 Validation: Multi-modal fusion reduces false alarms while maintaining high accuracy
+
 
 ---
 
@@ -81,7 +81,7 @@ Water area percentage is used to determine flood status:
 
 Below is the evaluation of the model on 300 test samples:
 
-![Model Evaluation](docs/model_evaluation.png)
+<img width="850" height="530" alt="image" src="https://github.com/user-attachments/assets/d5bac7c4-66b6-46b5-98ce-eca372d89b22" />
 
 ### Key Metrics:
 
@@ -211,5 +211,3 @@ For running `prod_02_integration_sensor_cv.py`, ensure:
 - ✅ `checkpoints/best_model.pth` (CV U-Net weights)
 - ✅ `video/` folder with video files
 - ✅ `04_model_unet_architecture.py` (CV architecture definition)
-
-<img width="850" height="530" alt="image" src="https://github.com/user-attachments/assets/d5bac7c4-66b6-46b5-98ce-eca372d89b22" />
